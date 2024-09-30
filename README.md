@@ -1,4 +1,4 @@
-# Mentally — Static Web Page for Startup Idea
+# SBB – Speech Detection with Data Augmentation
 
 ### :books: **Final Project Report**:  
 **[Leveraging Synthetic Data for Speech Recognition: Improving Shunting Commandos with Conformer-CTC at Swiss Federal Railways](https://raw.githubusercontent.com/fabian-gubler/sbb-speech-synthesis/main/Leveraging_Synthetic_Data_for_Speech_Recognition.pdf)** – Click the link for a detailed report on our ASR project with SBB.
