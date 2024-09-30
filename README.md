@@ -1,6 +1,8 @@
 
 # Automatic Speech Recognition Enhancement Using Synthetic Data
 
+[**Final Project Report**](https://raw.githubusercontent.com/fabian-gubler/sbb-speech-synthesis/main/Leveraging_Synthetic_Data_for_Speech_Recognition.pdf)  
+
 ## Table of Contents
 
 - [Overview and Motivation](#overview-and-motivation)
@@ -8,16 +10,13 @@
 - [Installation & Usage](#installation--usage)
 - [Acknowledgements](#acknowledgements)
 
-
 ## Overview and Motivation
 
-Automatic Speech Recognition (ASR) is pivotal in numerous applications, from transcription services to voice assistants. However, it faces challenges regarding accent diversity and data limitation. Our project seeks to overcome these hurdles by using synthetic data augmentation, a technique effective in various machine learning tasks.
+This project, conducted with **SBB (Schweizerische Bundesbahnen)**, aimed to improve Automatic Speech Recognition (ASR) systems through the use of **synthetic data**. By generating additional training data using **Text-to-Speech (TTS)** technology, we addressed common challenges in ASR such as accent diversity and limited datasets.
 
-Our synthetic data, generated using Text-to-Speech (TTS) technology, expands our training set's diversity and variety. By introducing more variations in speaker characteristics and commandos, it enhances the ability of our ASR model to generalize to unseen data.
+We used the **Conformer-CTC model**, a state-of-the-art ASR architecture, and demonstrated that augmenting real-world data with synthetic samples significantly enhances the model’s performance, especially in environments with multilingual and accent variations like those found at SBB.
 
-We utilized the Conformer-CTC model, known for its efficacy in ASR tasks. We investigated its performance with different levels of synthetic data integrated into the training set, comparing it against a baseline model and one trained only on human-recorded samples.
-
-The outcomes of our experiments demonstrate the potential of synthetic data augmentation in improving ASR performance, thereby offering a substantial contribution to the robustness and effectiveness of real-world ASR systems.
+This approach showcases how synthetic data can be an effective solution for overcoming data limitations and improving ASR accuracy in real-world applications.
 
 ## Contents of this Repository
 
